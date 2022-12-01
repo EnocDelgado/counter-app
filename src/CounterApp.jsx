@@ -39,7 +39,7 @@ export const CounterApp = ({ value }) => {
                         Reset
                     </button>
 
-                    <button onClick={ handleAdd }>
+                    <button aria-label='btn-reset' onClick={ handleAdd }>
                         +1
                     </button>
                 </div>
@@ -52,8 +52,4 @@ export const CounterApp = ({ value }) => {
 // PropTypes allows us to define a strict value type
 CounterApp.propTypes ={
     value: PropTypes.number.isRequired,
-};
-
-CounterApp.defaultProps = {
-    value: 0,
 };

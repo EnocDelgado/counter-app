@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on CounterApp should do match with snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="counter"
+    >
+      <h1>
+        Counter App
+      </h1>
+      <h2>
+        10
+      </h2>
+      <button>
+        -1
+      </button>
+      <button>
+        Reset
+      </button>
+      <button
+        aria-label="btn-reset"
+      >
+        +1
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -10,8 +10,8 @@ export const FirstApp = ({title, subtitle, name}) => {
     // props are objects {key: value}
   return (
     <>
-        <h1>{ title }</h1>
-        
+        <h1 data-testid="test-title">{ title }</h1>
+        {/* { JSON.stringify( newMessage) } */}
         <p>{ subtitle }</p>
         <p>{ name }</p>
         <></>
